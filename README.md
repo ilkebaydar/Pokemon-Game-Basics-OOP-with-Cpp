@@ -1,5 +1,5 @@
  For this assignment, you are expected to implement Satoshi Tajiri’s great game "Pokémon" as a text-based strategy game.
- Assignment details are included in README.pdf file. 
+ Assignment is preapared by  Barış Bilen, who is T.A at ITU Computer Engineering Department, and all details are included in README.pdf file. 
 
  ###  Implementation Notes:
  It is written C++ without any STL containers.
