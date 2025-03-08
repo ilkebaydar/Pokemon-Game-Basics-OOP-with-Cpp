@@ -1,11 +1,8 @@
-//--- 2023-2024 Spring BLG 252E Object Oriented Programing Assignment 1 ---//
 //--------------------------//
 //---Name & Surname: İlke Başak Baydar
 //---Student Number: 150140709
 //--------------------------//
 
-//-------------Do Not Add New Libraries-------------//
-//-------------All Libraries Needed Were Given-------------//
 #include <iostream> 
 #include <stdio.h>
 #include <string.h>
@@ -15,35 +12,20 @@
 
 using namespace std;
 
-//-------------Do Not Change These Global Variables-------------//
 int NAME_COUNTER = 0;   //Use this to keep track of the enemy names
 int POK_COUNTER = 0;    //Use this to keep track of the pokemon names
 int PLAYER_POKEMON_ATTACK = 20; //You don't have to use this variable but its here if you need it
 int ENEMY_POKEMON_ATTACK = 10;  //You don't have to use this variable but its here if you need it
-//--------------------------------------------------------------//
 
-//---If Necessary Add Your Global Variables Here---// 
-// 
-//
-//
-//-------------------------------------------------//
 
-//-------------Do Not Change These Function Definitions-------------//
 string* readEnemyNames(const char*);
 string* readPokemonNames(const char*);
 player characterCreate(string, int);
 void mainMenu();
 void fightEnemy(player*, string*, string*);
 void catchPokemon(player*, string*);
-//------------------------------------------------------------------//
 
-//---If Necessary Add Your Function Definitions Here---// 
-//
-//
-//
-//-----------------------------------------------------//
 
-//-------------Do Not Change This Function-------------//
 int main(int argc, char* argv[]){
 	system("clear");
 
@@ -154,9 +136,7 @@ player characterCreate(string playerName, int pokemonChoice){
         return p;
     }
 };
-//--------------------------------------------//
 
-//-------------Do Not Change This Function-------------//
 void mainMenu(){
     cout << endl;
     cout << "-------- Menu --------" << endl;
