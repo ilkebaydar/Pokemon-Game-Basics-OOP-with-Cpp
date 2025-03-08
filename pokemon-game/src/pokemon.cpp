@@ -1,11 +1,9 @@
-//--- 2023-2024 Spring BLG 252E Object Oriented Programing Assignment 1 ---//
 //--------------------------//
 //---Name & Surname: İlke Başak Baydar
 //---Student Number: 150140709
 //--------------------------//
 
-//-------------Do Not Add New Libraries-------------//
-//-------------All Libraries Needed Were Given-------------//
+
 #include <iostream>
 #include <stdio.h>
 #include <string.h>
@@ -14,7 +12,6 @@
 
 using namespace std;
 
-//-------------You Can Add Your Functions Down Below-------------//
 
 pokemon::pokemon(string n, int a_val){
 	this->name = n;
