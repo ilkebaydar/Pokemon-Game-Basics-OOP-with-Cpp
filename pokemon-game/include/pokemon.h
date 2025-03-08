@@ -1,4 +1,4 @@
-    //--- 2023-2024 Spring BLG 252E Object Oriented Programing Assignment 1 ---//
+
 //--------------------------//
 //---Name & Surname: İlke Başak Baydar
 //---Student Number: 150140709
@@ -7,19 +7,14 @@
 #ifndef _H
 #define _H
 
-//-------------Do Not Add New Libraries-------------//
-//-------------All Libraries Needed Were Given-------------//
 #include <iostream>
 #include <stdio.h>
 #include <string.h>
 
 using namespace std;
 
-//-------------Do Not Add Any New Class(es)-------------//
 
 class pokemon{
-    //-------------Do Not Change Given Variables-------------//
-    //-------------You Can Add New Variables If Neccessary-------------//
     private:
         string name;
         int hpValue;
@@ -37,8 +32,6 @@ class pokemon{
 };
 
 class pokedex{
-    //-------------Do Not Change Given Variables-------------//
-    //-------------You Can Add New Variables If Neccessary-------------//
     private:
         pokemon pokedexArray[100];
         int value;
@@ -50,8 +43,6 @@ class pokedex{
 
 class player{
     private:
-    //-------------Do Not Change Given Variables-------------//
-    //-------------You Can Add New Variables If Neccessary-------------//
         string name;
         int pokemonNumber;
         int pokeballNumber;
@@ -82,8 +73,6 @@ class player{
 };
 
 class enemy{
-    //-------------Do Not Change Given Variables-------------//
-    //-------------You Can Add New Variables If Neccessary-------------//
     private:
         string name;
         pokemon enemyPokemon;
